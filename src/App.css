@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  background: url('https://cdn.glitch.global/f7b7a083-9141-48d0-a30a-ae1958919902/5e2d72d13559f924d7526fde95d6e951.JPG?v=1719124031625');
+  background-size: cover;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: grid;
+  place-items: center;
+  }
+  
+  h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 8px;
+  }
+  
+  input {
+  display: block;
+  width: 100%;
+  border: none;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  font-size: 20px;
+  background: #313133;
+  padding: 20px;
+  font-family: 'Gloria Hallelujah', cursive;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  margin-top: 10px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  button {
+  padding: 20px 70px 20px 70px;
+  background-color: #024d3d;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
   }
-}
+  
+  p {
+  max-width: 100%;
+  background: beige;
+  border-radius: 8px;
+  padding: 0px 10px;
+  margin-top: 20px;
+  font-family: 'Gloria Hallelujah', cursive;
+  width: 600px;
+  font-size: 20px;
+  
+  }
+  
+  
