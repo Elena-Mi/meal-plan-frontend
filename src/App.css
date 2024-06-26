@@ -55,3 +55,8 @@ body {
   }
   
   
+@media all and (max-width: 600px) {
+  h1, inpit, p, button {
+    width: 90%;
+  }
+}
